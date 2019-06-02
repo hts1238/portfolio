@@ -44,6 +44,9 @@ main#allworks > div#sections > div {
     box-shadow: 0 0 10px #0003;
     border-radius: 15px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 main#allworks > div#sections > div > p {
