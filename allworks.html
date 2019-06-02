@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="styles/allworks.css">
+<main id="allworks">
+    <div id="top">
+        <div id="title_sections">
+            <h1>My projects</h1>
+        </div>
+        <div id="menu_sections">
+            <div id="active">
+                <h2>Most popular</h2>
+            </div>
+            <div>
+                <h2>All projects</h2>
+            </div>
+            <div>
+                <h2>In developing</h2>
+            </div>
+        </div>
+    </div>
+    <div id="sections">
+        <?php
+            foreach ($projects as $name => &$project) { 
+                echo '
+                    <div id="'.$project["id"].'">
+                        <div class="header_sections" style="background-image: url(
+                            styles/img/'.$project["photo_link"].'
+                            )">
+                            <h3>'.$name.'</h3>
+                        </div>
+                        <p>'.
+                            $project["description"]
+                        .'</p>
+                        <a href="'.$project["link"].'" target="_blank">Link to work</a>
+                    </div>
+                ';
+            }
+        ?>
+    </div>
+</main>

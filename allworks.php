@@ -18,37 +18,37 @@
 			"link" => "http://tim-ur.ru/perProg/personalProject.html",
 			"photo_link" => "img3.png"
 		],
-		/*"Title #4" => [
+		"Calculator" => [
 			"id" => "4",
-			"description" => "Ut ultricies nulla at mi cursus, et rutrum metus vulputate. Phasellus sed nisl eget tortor pharetra dapibus",
-			"link" => "#",
+			"description" => "Console-app parsing and calculating mathematics expressions",
+			"link" => "https://github.com/hts1238/Calculator",
 			"photo_link" => "test/test4.jpg"
 		],
-		"Title #5" => [
+		/*"Title #5" => [
 			"id" => "5",
 			"description" => "Aenean at posuere massa. Sed vel nisl at augue",
 			"link" => "#",
 			"photo_link" => "test/test5.jpg"
 		],
-		"Title #6" => [
+		/*"Title #6" => [
 			"id" => "6",
 			"description" => "Morbi pretium rhoncus felis at feugiat. Cras viverra ullamcorper sodales",
 			"link" => "#",
 			"photo_link" => "test/test6.jpg"
 		],
-		"Title #7" => [
+		/*"Title #7" => [
 			"id" => "7",
 			"description" => "Aenean ut leo erat. Maecenas suscipit, nunc eget",
 			"link" => "#",
 			"photo_link" => "test/test7.jpg"
 		],
-		"Title #8" => [
+		/*"Title #8" => [
 			"id" => "8",
 			"description" => "Phasellus vulputate lobortis arcu in rhoncus. Phasellus dictum convallis velit, quis imperdiet orci cursus eu. Nulla maximus",
 			"link" => "#",
 			"photo_link" => "test/test8.jpg"
 		],
-		"Title #9" => [
+		/*"Title #9" => [
 			"id" => "9",
 			"description" => "Nulla volutpat posuere lorem, eu scelerisque varius",
 			"link" => "#",

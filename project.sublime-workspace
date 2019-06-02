@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"incl",
+				"incl1\tinclude_once …"
+			],
+			[
 				"back",
 				"background-color\tproperty"
 			],
@@ -20,27 +24,46 @@
 	"buffers":
 	[
 		{
-			"file": "main.html",
+			"file": "allworks.php",
 			"settings":
 			{
-				"buffer_size": 4914,
+				"buffer_size": 2120,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "styles/main_styles.css",
+			"file": "about.php",
 			"settings":
 			{
-				"buffer_size": 310,
+				"buffer_size": 68,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "styles/main.css",
+			"file": "prices.php",
 			"settings":
 			{
-				"buffer_size": 1672,
+				"buffer_size": 68,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contacts.php",
+			"settings":
+			{
+				"buffer_size": 68,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "feedback.php",
+			"settings":
+			{
+				"buffer_size": 68,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -98,9 +121,24 @@
 	},
 	"expanded_folders":
 	[
+		"/home/timur/prog/web/portfolio",
+		"/home/timur/prog/web/portfolio/styles"
 	],
 	"file_history":
 	[
+		"/home/timur/prog/web/portfolio/header.html",
+		"/home/timur/prog/web/portfolio/allworks.html",
+		"/home/timur/prog/web/portfolio/footer.html",
+		"/home/timur/prog/web/portfolio/index.php",
+		"/home/timur/prog/web/portfolio/styles/allworks.css",
+		"/home/timur/prog/web/portfolio/styles/header.css",
+		"/home/timur/prog/web/portfolio/.htaccess",
+		"/home/timur/prog/web/portfolio/new/index.html",
+		"/home/timur/prog/web/portfolio/allworks/index.php",
+		"/home/timur/prog/web/portfolio/styles/.htaccess",
+		"/home/timur/prog/web/portfolio/main.php",
+		"/home/timur/prog/web/portfolio/styles/main.css",
+		"/home/timur/prog/web/portfolio/styles/main_styles.css",
 		"/home/timur/prog/web/portfolio/styles/file.txt",
 		"/home/timur/prog/web/store/main.html",
 		"/home/timur/Prog/HTML & others/store/signin/index.html",
@@ -109,7 +147,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -123,6 +161,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"main",
 			"\t",
 			"main",
 			"css",
@@ -145,59 +184,86 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "main.html",
+					"file": "allworks.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4914,
+						"buffer_size": 2120,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								346,
-								346
+								1995,
+								1995
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 918.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "about.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "styles/main_styles.css",
+					"buffer": 2,
+					"file": "prices.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 310,
+						"buffer_size": 68,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31,
-								31
+								68,
+								68
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -207,33 +273,59 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "styles/main.css",
+					"buffer": 3,
+					"file": "contacts.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1672,
+						"buffer_size": 68,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								68,
+								68
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "feedback.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -245,7 +337,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 40.0
 	},
 	"layout":
 	{
@@ -316,7 +408,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 187.0,
+	"side_bar_width": 215.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

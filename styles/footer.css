@@ -1,0 +1,12 @@
+footer {
+	background-color: #ddd;
+	margin: 40px 0 0;
+	padding: 10px 20px;
+}
+
+footer > p {
+	margin: 20px 0;
+	font-family: monospace;
+	font-size: 1.4em;
+	color: #444;
+}
