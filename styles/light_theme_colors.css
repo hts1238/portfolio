@@ -1,0 +1,30 @@
+:root {
+    --body-background-color: #f6f5f7;
+    --header-background-color: #f8f9fa;
+    --header-shadow-color: #0004;
+    --header-h1-color: #000;
+    --header-a-color: #888;
+    --header-a-hover-background-color: #eee;
+    --header-a-hover-color: #444;
+    --header-a-hover-border-color: #ddd;
+
+    --allworks-title-color: #000;
+    --allworks-menu-border-color: #ccf;
+    --allworks-menu-active-border-color: #66f;
+    --allworks-menu-color: #555;
+    --allworks-menu-active-color: #000;
+    --allworks-menu-active-background-color: #f5f5f5;
+    --allworks-menu-hover-background-color: #f0f0f0;
+    --allworks-sections-div-background-color: #f8f9fa;
+    --allworks-sections-div-shadow-color: #0003;
+    --allworks-sections-p-color: #000;
+    --allworks-sections-a-color: #00d;
+    --allworks-top-background-color: #f8f9fa;
+    --allworks-top-shadow-color: #0003;
+    
+    --feedback-form-background-color: #f8f9fa;
+    --feedback-form-shadow-color: #0005;
+
+    --footer-background-color: #ddd;
+    --footer-p-color: #444;
+}

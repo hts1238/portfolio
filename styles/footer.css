@@ -1,12 +1,74 @@
 footer {
-	background-color: #ddd;
+	position: relative;
+	background-color: var(--footer-background-color);
 	margin: 40px 0 0;
 	padding: 10px 20px;
 }
 
-footer > p {
+footer p {
 	margin: 20px 0;
 	font-family: monospace;
 	font-size: 1.4em;
-	color: #444;
+	color: var(--footer-p-color);
+}
+
+footer input[type=checkbox] {
+	height: 0;
+	width: 0;
+	visibility: hidden;
+	display: none;
+}
+
+footer label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 60px;
+	height: 30px;
+	background: #333;
+	display: block;
+	border-radius: 15px;
+	position: relative;
+	transition: 0.3s;
+	margin: 0;
+}
+
+footer label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+
+footer input:checked + label {
+	background: #999;
+}
+
+footer input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+	background: #333;
+}
+
+footer label:active:after {
+	width: 20px;
+}
+
+footer > div {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	padding: 0;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer > div > p {
+	margin: 10px;
 }

@@ -5,7 +5,19 @@
 		[
 			[
 				"incl",
-				"incl1\tinclude_once …"
+				"include_once"
+			],
+			[
+				"pr",
+				"project"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"pop",
+				"popular"
 			],
 			[
 				"back",
@@ -23,51 +35,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "allworks.php",
-			"settings":
-			{
-				"buffer_size": 2120,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "about.php",
-			"settings":
-			{
-				"buffer_size": 68,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "prices.php",
-			"settings":
-			{
-				"buffer_size": 68,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "contacts.php",
-			"settings":
-			{
-				"buffer_size": 68,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "feedback.php",
-			"settings":
-			{
-				"buffer_size": 68,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -121,17 +88,34 @@
 	},
 	"expanded_folders":
 	[
-		"/home/timur/prog/web/portfolio",
-		"/home/timur/prog/web/portfolio/styles"
 	],
 	"file_history":
 	[
-		"/home/timur/prog/web/portfolio/header.html",
-		"/home/timur/prog/web/portfolio/allworks.html",
-		"/home/timur/prog/web/portfolio/footer.html",
-		"/home/timur/prog/web/portfolio/index.php",
-		"/home/timur/prog/web/portfolio/styles/allworks.css",
+		"/home/timur/prog/web/portfolio/scripts/footer.js",
+		"/home/timur/prog/web/portfolio/processing/change_theme.php",
+		"/home/timur/prog/web/portfolio/templates/theme_colors.html",
+		"/home/timur/.minecraft/saves/New big city/stats/00000000-0000-0000-0000-000000000000.json",
+		"/home/timur/prog/web/portfolio/allworks.php",
+		"/home/timur/prog/web/portfolio/prices.php",
+		"/home/timur/prog/web/portfolio/feedback.php",
+		"/home/timur/prog/web/portfolio/contacts.php",
+		"/home/timur/prog/web/portfolio/about.php",
+		"/home/timur/prog/web/portfolio/scripts/allworks.js",
+		"/home/timur/prog/web/portfolio/styles/feedback.css",
+		"/home/timur/prog/web/portfolio/feedback.html",
+		"/home/timur/prog/web/portfolio/scripts/feedback.html",
+		"/home/timur/prog/python/today.py",
 		"/home/timur/prog/web/portfolio/styles/header.css",
+		"/home/timur/prog/web/portfolio/header.html",
+		"/home/timur/prog/web/portfolio/index.php",
+		"/home/timur/prog/web/portfolio/styles/footer.css",
+		"/home/timur/prog/web/portfolio/change_theme.php",
+		"/home/timur/prog/web/portfolio/footer.html",
+		"/home/timur/prog/web/portfolio/allworks.html",
+		"/home/timur/prog/web/portfolio/styles/dark_theme_colors.css",
+		"/home/timur/prog/web/portfolio/styles/light_theme_colors.css",
+		"/home/timur/prog/web/portfolio/styles/allworks.css",
+		"/home/timur/prog/web/store/scripts/most_popular.json",
 		"/home/timur/prog/web/portfolio/.htaccess",
 		"/home/timur/prog/web/portfolio/new/index.html",
 		"/home/timur/prog/web/portfolio/allworks/index.php",
@@ -161,6 +145,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\t",
+			"var(--second-color)",
+			"var(--first-color)",
+			">\n",
+			"div#sections",
 			"main",
 			"\t",
 			"main",
@@ -184,150 +173,8 @@
 	"groups":
 	[
 		{
-			"selected": 4,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "allworks.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2120,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1995,
-								1995
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 918.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "about.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 68,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68,
-								68
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "prices.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 68,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68,
-								68
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "contacts.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 68,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68,
-								68
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "feedback.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 68,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68,
-								68
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -408,7 +255,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 215.0,
+	"side_bar_width": 214.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

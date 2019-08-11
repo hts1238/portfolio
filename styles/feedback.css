@@ -1,0 +1,30 @@
+main#feedback {
+	width: 60%;
+	margin: 0 auto;
+	background-color: var(--feedback-form-background-color);
+	border-radius: 20px;
+	box-shadow: 0px 0px 30px var(--feedback-form-shadow-color);
+}
+
+main#feedback p {
+	color: var(--feedback-p-color);
+	flex-grow: 1;
+}
+
+main#feedback div {
+	display: flex;
+	justify-content: right;
+	margin: 0 10px;
+}
+
+main#feedback input, main#feedback textarea {
+	font-size: 100%;
+	margin: 10px;
+	padding: 10px;
+	flex-grow: 3;
+	background-color: var(--feedback-input-background-color);
+	border-color: var(--feedback-input-border-color);
+	border-style: solid;
+	border-radius: 15px;
+	color: var(--feedback-input-color);
+}

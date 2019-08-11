@@ -1,8 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f6f5f7;
+    background-color: var(--body-background-color);
     font-family: 'Montserrat', sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 header {
@@ -12,13 +18,17 @@ header {
     justify-content: space-between;
     margin-bottom: 50px;
     padding: 0 20px;
-    background-color: #f8f9fa;
-    box-shadow: 0 5px 30px #0004;
+    background-color: var(--header-background-color);
+    box-shadow: 0 5px 30px var(--header-shadow-color);
 }
 
 header > div#title {
     flex: 4 1 40%;
     cursor: default;
+}
+
+header h1 {
+    color: var(--header-h1-color);
 }
 
 header a {
@@ -29,13 +39,17 @@ header a {
     left: 0;
     text-align: center;
     text-decoration: none;
-    color: #888;
+    color: var(--header-a-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header a:hover {
-    background-color: #eee;
-    color: #444;
-    border-bottom: 3px solid #ddd;
+    background-color: var(--header-a-hover-background-color);
+    color: var(--header-a-hover-color);
+    border-bottom: 3px solid var(--header-a-hover-border-color);
 }
 
 header a:active {
@@ -44,15 +58,6 @@ header a:active {
 
 header a:focus {
     outline: none;
-}
-
-header a > p {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-header a > p.before {
-    height: 60%;
 }
 
 header > div#links {
@@ -66,4 +71,8 @@ header > div#links {
 header > div#links > div {
     position: relative;
     width: 20%;
+}
+
+
+@media screen and (max-width: 800px) {
 }

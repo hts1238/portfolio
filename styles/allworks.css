@@ -12,7 +12,7 @@ main#allworks div#title_sections {
 main#allworks div#menu_sections {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     position: relative;
     margin-top: -3px;
@@ -25,8 +25,8 @@ main#allworks div#menu_sections > div {
     margin: 0;
     display: flex;
     justify-content: center;
-    border-bottom: 3px solid #ccf;
-    color: #555;
+    border-bottom: 3px solid var(--allworks-menu-border-color);
+    color: var(--allworks-menu-color);
 }
 
 main#allworks > div#sections {
@@ -35,13 +35,15 @@ main#allworks > div#sections {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 400px;
+    grid-auto-rows: 500px;
     grid-gap: 25px;
+    
+    transition: 1s;
 }
 
 main#allworks > div#sections > div {
-    background-color: #f8f9fa;
-    box-shadow: 0 0 10px #0003;
+    background-color: var(--allworks-sections-div-background-color);
+    box-shadow: 0 0 10px var(--allworks-sections-div-shadow-color);
     border-radius: 15px;
     overflow: hidden;
     display: flex;
@@ -52,10 +54,12 @@ main#allworks > div#sections > div {
 main#allworks > div#sections > div > p {
     margin: 10px;
     cursor: default;
+    color: var(--allworks-sections-p-color);
 }
 
 main#allworks > div#sections > div > a {
     margin: 0 10px 10px;
+    color: var(--allworks-sections-a-color);
 }
 
 main#allworks > div#sections > div > div.header_sections {
@@ -77,22 +81,44 @@ main#allworks > div#sections > div > div.header_sections > h3 {
 }
 
 main#allworks > div#top {
-    background-color: #f8f9fa;
-    box-shadow: 0 0 10px #0003;
+    background-color: var(--allworks-top-background-color);
+    box-shadow: 0 0 10px var(--allworks-top-shadow-color);
     border-radius: 20px;
     padding: 5px 20px 0;
     cursor: default;
 }
 
+main#allworks div#title_sections > h1 {
+    color: var(--allworks-title-color);
+}
+
 main#allworks div#menu_sections > div#active {
-    border-bottom-color: #66f;
-    background-color: #f5f5f5;
-    color: #000;
+    border-bottom-color: var(--allworks-menu-active-border-color);
+    background-color: var(--allworks-menu-active-background-color);
+    color: var(--allworks-menu-active-color);
 }
 
 main#allworks div#menu_sections > div:hover {
-    background-color: #f0f0f0;
+    background-color: var(--allworks-menu-hover-background-color);
 }
 
-main#allworks > div#sections div.header_sections {
+
+@media screen and (max-width: 1000px) {
+    
+    main#allworks > div#sections {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+
+    main#allworks > div#sections {
+        grid-template-columns: 1fr;
+    }
+    
+    main#allworks div#menu_sections h2 {
+        font-size: 100%;
+    }
+
 }

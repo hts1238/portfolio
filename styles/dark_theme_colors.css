@@ -1,0 +1,34 @@
+:root {
+    --body-background-color: #222;
+    --header-background-color: #111;
+    --header-shadow-color: #fff2;
+    --header-h1-color: #fff;
+    --header-a-color: #aaa;
+    --header-a-hover-background-color: #333;
+    --header-a-hover-color: #fff;
+    --header-a-hover-border-color: #aaa;
+
+    --allworks-title-color: #fff;
+    --allworks-menu-border-color: #aaa;
+    --allworks-menu-active-border-color: #00f;
+    --allworks-menu-color: #aaa;
+    --allworks-menu-active-color: #fff;
+    --allworks-menu-active-background-color: #444;
+    --allworks-menu-hover-background-color: #333;
+    --allworks-sections-div-background-color: #111;
+    --allworks-sections-div-shadow-color: #fff2;
+    --allworks-sections-p-color: #fff;
+    --allworks-sections-a-color: #99f;
+    --allworks-top-background-color: #111;
+    --allworks-top-shadow-color: #fff2;
+    
+    --feedback-form-background-color: #111;
+    --feedback-p-color: #fff;
+    --feedback-form-shadow-color: #fff3;
+    --feedback-input-background-color: #222;
+    --feedback-input-border-color: #333;
+    --feedback-input-color: #ddd;
+
+    --footer-background-color: #111;
+    --footer-p-color: #aaa;
+}
