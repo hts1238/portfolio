@@ -1,5 +1,7 @@
 function load(str) {
-	$("main#allworks div#sections").load("http://localhost/prog/portfolio/processing/projects.php?str=" + str);
+	$("main#allworks div#sections").load(
+		"http://localhost/prog/web/portfolio/processing/projects.php?str=" + str
+	);
 }
 
 $(function() {

@@ -24,6 +24,9 @@
     
     --feedback-form-background-color: #f8f9fa;
     --feedback-form-shadow-color: #0005;
+    --feedback-input-background-color: #eee;
+    --feedback-input-border-color: #ccc;
+    --feedback-input-color: #111;
 
     --footer-background-color: #ddd;
     --footer-p-color: #444;

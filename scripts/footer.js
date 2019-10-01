@@ -6,7 +6,7 @@ $(function() {
 		}
 		$.ajax({
 			type: "POST",
-			url: "processing/change_theme.php",
+			url: "./processing/change_theme.php",
 			data: "theme=" + new_theme,
 			success: function(e) {
 				location.reload(true);
