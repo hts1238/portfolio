@@ -30,7 +30,7 @@
             "link" => "https://github.com/hts1238/calculator",
             "photo_link" => IMG_FOLDER."test/test4.jpg",
             "tags" => ["popular"]
-        ],
+        ],/*
         "Title #5" => [
             "id" => "5",
             "description" => "Aenean at posuere massa. Sed vel nisl at augue",
@@ -65,7 +65,7 @@
             "link" => "#",
             "photo_link" => IMG_FOLDER."test/test9.jpg",
             "tags" => ["popular", "develop"]
-        ]
+        ]/**/
     ];
 
     $popular = [];
@@ -82,7 +82,7 @@
         foreach ($allworks as $name => &$project) {
             echo '
                 <div id="'.$project["id"].'">
-                    <div class="header_sections" style="background-image: url('.IMG_FOLDER.$project["photo_link"].')">
+                    <div class="header_sections" style="background-image: url('.$project["photo_link"].')">
                         <h3>'.$name.'</h3>
                     </div>
                     <p>'.$project["description"].'</p>
@@ -106,7 +106,7 @@
         foreach ($develop as $name => &$project) {
             echo '
                 <div id="'.$project["id"].'">
-                    <div class="header_sections" style="background-image: url('.IMG_FOLDER.$project["photo_link"].')">
+                    <div class="header_sections" style="background-image: url('.$project["photo_link"].')">
                         <h3>'.$name.'</h3>
                     </div>
                     <p>'.$project["description"].'</p>

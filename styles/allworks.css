@@ -122,3 +122,14 @@ main#allworks div#menu_sections > div:hover {
     }
 
 }
+
+/* temperates styles */
+
+div#message {
+    background-color: #fcc8;
+    border: 3px solid #f33a;
+    border-radius: 20px;
+    padding: 25px 10px;
+    width: 80%;
+    margin: 3px auto;
+}
