@@ -7,10 +7,17 @@
 
     //TODO: добавить валидацию входных данных
 
+    $name = htmlspecialchars($name);
+    $email = htmlspecialchars($email);
+    $feedback = htmlspecialchars($feedback);
+    $time = htmlspecialchars(date("j F Y, G:i"));
+
+/*
     $name = openssl_encrypt($name, "aes-128-cbc", "0123456789abcdef");
     $email = openssl_encrypt($email, "aes-128-cbc", "0123456789abcdef");
     $feedback = openssl_encrypt($feedback, "aes-128-cbc", "0123456789abcdef");
     $time = openssl_encrypt(date("r", time()), "aes-128-cbc", "0123456789abcdef");
+*/
 
     $file = fopen('feedbacks.php', 'a');
     $str = '

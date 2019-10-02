@@ -2,54 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9bffa11-5d87-4585-9504-f91ea109f323" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paths.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processing/clear_feedbacks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processing/viewfeedbacks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/feedback.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allworks.php" beforeDir="false" afterPath="$PROJECT_DIR$/allworks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feedback.php" beforeDir="false" afterPath="$PROJECT_DIR$/feedback.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prices.php" beforeDir="false" afterPath="$PROJECT_DIR$/prices.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing/change_theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/processing/change_theme.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/processing/feedbacks.php" beforeDir="false" afterPath="$PROJECT_DIR$/processing/feedbacks.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/processing/new_feedback.php" beforeDir="false" afterPath="$PROJECT_DIR$/processing/new_feedback.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/processing/projects.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.sublime-project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.sublime-workspace" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/allworks.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/allworks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/libraries/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/libraries/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/allworks.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/allworks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/dark_theme_colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/dark_theme_colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/feedback.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/feedback.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/img/img1.png" beforeDir="false" afterPath="$PROJECT_DIR$/styles/img/img1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/img/img2.png" beforeDir="false" afterPath="$PROJECT_DIR$/styles/img/img2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/img/img3.png" beforeDir="false" afterPath="$PROJECT_DIR$/styles/img/img3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/img/test/test1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/styles/img/test/test1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/img/test/test2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/styles/img/test/test2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/img/test/test3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/styles/img/test/test3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/img/test/test4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/styles/img/test/test4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/img/test/test5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/styles/img/test/test5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/img/test/test6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/styles/img/test/test6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/img/test/test7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/styles/img/test/test7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/img/test/test8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/styles/img/test/test8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/img/test/test9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/styles/img/test/test9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/light_theme_colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/light_theme_colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/allworks.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/allworks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/feedback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/theme_colors.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theme_colors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing/viewfeedbacks.php" beforeDir="false" afterPath="$PROJECT_DIR$/processing/viewfeedbacks.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +119,8 @@
       <workItem from="1565517522947" duration="1769000" />
       <workItem from="1565519332728" duration="1800000" />
       <workItem from="1569867824008" duration="912000" />
-      <workItem from="1569945647252" duration="9802000" />
+      <workItem from="1569945647252" duration="10489000" />
+      <workItem from="1570035179446" duration="1350000" />
     </task>
     <servers />
   </component>
