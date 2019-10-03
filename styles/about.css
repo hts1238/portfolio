@@ -1,0 +1,18 @@
+main#about {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.5%;
+    background-color: var(--about-main-background-color);
+    border-radius: 20px;
+    box-shadow: 0 0 10px var(--about-main-shadow-color);
+    font-size: 120%;
+    color: var(--about-text-color);
+}
+
+main#about > img {
+    width: 35%;
+    float: right;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px var(--about-main-shadow-color);
+}

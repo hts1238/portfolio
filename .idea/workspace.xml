@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9bffa11-5d87-4585-9504-f91ea109f323" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/styles/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing/new_feedback.php" beforeDir="false" afterPath="$PROJECT_DIR$/processing/new_feedback.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/processing/projects.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/allworks.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/allworks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/allworks.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/allworks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/dark_theme_colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/dark_theme_colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/light_theme_colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/light_theme_colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +70,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -82,12 +86,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.about.html">
+    <configuration name="about.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfolio/templates/about.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="allworks.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/allworks.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.about.html" />
         <item itemvalue="PHP Script.allworks.php" />
       </list>
     </recent_temporary>
@@ -121,7 +129,9 @@
       <workItem from="1565519332728" duration="1800000" />
       <workItem from="1569867824008" duration="912000" />
       <workItem from="1569945647252" duration="10489000" />
-      <workItem from="1570035179446" duration="2105000" />
+      <workItem from="1570035179446" duration="6487000" />
+      <workItem from="1570088383244" duration="73000" />
+      <workItem from="1570088669952" duration="31000" />
     </task>
     <servers />
   </component>

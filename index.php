@@ -1,3 +1,3 @@
 <?php
-	header("Location: allworks");
+	header("Location: about");
 ?>
