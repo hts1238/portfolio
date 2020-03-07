@@ -1,0 +1,49 @@
+main {
+    width: 80%;
+    margin: auto;
+    color: var(--about-text-color);
+
+    /*border: .1px solid grey;*/
+}
+
+main * {
+    /*border: .1px solid grey;*/
+}
+
+main > div#header {
+    background-color: var(--about-main-background-color);
+    box-shadow: 0 0 10px var(--about-main-shadow-color);
+    padding: 15px;
+}
+
+main > div#body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main > div#body > div {
+    flex-grow: 1;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px var(--about-main-shadow-color);
+    background-color: var(--about-main-background-color);
+    min-width: 300px;
+}
+
+main > div {
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+main h1, main h2 {
+    margin: 10px;
+}
+
+main svg {
+    background-color: red;
+    width: 1em;
+    height: 1em;
+    margin: 0 5px;
+}

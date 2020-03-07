@@ -1,14 +1,19 @@
 :root {
-    --body-background-color: #222;
-    --header-background-color: #111;
-    --header-shadow-color: #fff2;
-    --header-h1-color: #fff;
+    --default-first-color: #222;
+    --default-second-color: #111;
+    --default-shadow-color: #aaf4;
+    --default-text-color: #fff;
+
+    --body-background-color: var(--default-first-color);
+    --header-background-color: var(--default-second-color);
+    --header-shadow-color: var(--default-shadow-color);
+    --header-h1-color: var(--default-text-color);
     --header-a-color: #aaa;
     --header-a-hover-background-color: #333;
     --header-a-hover-color: #fff;
     --header-a-hover-border-color: #aaa;
 
-    --allworks-title-color: #fff;
+    --allworks-title-color: var(--default-text-color);
     --allworks-menu-border-color: #aaa;
     --allworks-menu-active-border-color: #00f;
     --allworks-menu-color: #aaa;
@@ -16,22 +21,22 @@
     --allworks-menu-active-background-color: #444;
     --allworks-menu-hover-background-color: #333;
     --allworks-sections-div-background-color: #111;
-    --allworks-sections-div-shadow-color: #fff2;
+    --allworks-sections-div-shadow-color: var(--default-shadow-color);
     --allworks-sections-p-color: #fff;
     --allworks-sections-a-color: #99f;
     --allworks-top-background-color: #111;
-    --allworks-top-shadow-color: #fff2;
+    --allworks-top-shadow-color: var(--default-shadow-color);
 
-    --about-main-background-color: #111;
-    --about-main-shadow-color: #fff2;
-    --about-text-color: #fff;
+    --about-main-background-color: var(--default-second-color);
+    --about-main-shadow-color: var(--default-shadow-color);
+    --about-text-color: var(--default-text-color);
     
-    --feedback-form-background-color: #111;
-    --feedback-p-color: #fff;
-    --feedback-form-shadow-color: #fff3;
+    --feedback-form-background-color: var(--default-second-color);
+    --feedback-form-shadow-color: var(--default-shadow-color);
     --feedback-input-background-color: #222;
     --feedback-input-border-color: #333;
     --feedback-input-color: #ddd;
+    --feedback-p-color: var(--default-text-color);
 
     --footer-background-color: #111;
     --footer-p-color: #aaa;

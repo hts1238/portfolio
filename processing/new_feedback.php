@@ -12,6 +12,16 @@
     $feedback = htmlspecialchars($feedback);
     $time = htmlspecialchars(date("j F Y, G:i"));
 
+    $new_feedback = '';
+    for ($i = 0; $i < strlen($feedback); $i++) {
+        if (ord($feedback[$i]) == 10) {
+            $new_feedback .= '<br>';
+        }
+        else {
+            $new_feedback .= $feedback[$i];
+        }
+    }
+
 /*
     $name = openssl_encrypt($name, "aes-128-cbc", "0123456789abcdef");
     $email = openssl_encrypt($email, "aes-128-cbc", "0123456789abcdef");
@@ -26,7 +36,7 @@ $arr[] = [
     "name" => "' . $name . '",
     "email" => "' . $email . '",
     "time" => "' . $time . '",
-    "feedback" => "' . $feedback . '"
+    "feedback" => "' . $new_feedback . '"
 ];
 ?>';
     fwrite($file, $str);
