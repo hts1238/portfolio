@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Школьная дискотека: покупка билетов</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <meta charset="utf-8">
+    <script src="libraries/jquery.min.js"></script>
+</head>
+<body>
+
+    <main>
+        <h1>Билеты</h1>
+        <h2>Школьная дискотека</h2>
+        <form action="createticket.php" method="POST">
+            <div class="textdiv">
+                <input id="name" autocomplete="off" type="text" name="name" placeholder=" " required>
+                <label for="name">Имя</label>
+            </div>
+            <div class="textdiv">
+                <input id="surname" autocomplete="off" type="text" name="surname" placeholder=" " required>
+                <label for="surname">Фамилия</label>
+            </div>
+            <div class="textdiv">
+                <input id="class" autocomplete="off" type="text" name="class" placeholder=" " required>
+                <label for="class">Класс</label>
+            </div>
+            <div>
+                <input type="checkbox" name="isstudent" id="isstudent" required>
+                <label for="isstudent">Я являюсь учеником МАОУ "СОШ №9"</label>
+            </div>
+            <div>
+                <input type="checkbox" name="agree" id="agree" required>
+                <label for="agree">Я ознакомился с <a href="002_folder/rools.php">Правилами</a> и согласен с ними</label>
+            </div>
+            <div>
+                <input type="submit" value="Заказать">
+                <p>20&#8381;</p>
+            </div>
+        </form>
+    </main>
+
+</body>
